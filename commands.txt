@@ -1,0 +1,1 @@
+dotnet new webapi -minimal true --no-openapi true

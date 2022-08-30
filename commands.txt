@@ -1,3 +1,5 @@
 dotnet new webapi -minimal true --no-openapi true
 
 dotnet add package Microsoft.EntityFrameworkCore.Sqlite
+
+dotnet ef migrations add initialmigration
